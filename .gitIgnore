@@ -1,0 +1,22 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Parcel's cache and output directories
+.cache/
+dist/
+
+# Ignore any environment-specific configuration files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore any logs or build files
+*.log
+build/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+.parcel-cache
